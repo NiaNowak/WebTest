@@ -1,0 +1,53 @@
+header{
+    padding: 10px;
+    background-color: gray;
+}
+
+nav {
+    padding: 5px;
+    background-color: black;
+}
+nav ul{
+    text-align: centre;
+    font-size: 1.2em;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: lavender;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover
+{background-color: purple;}
+
+footer {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+
+table{
+    width: 45%;
+    border:1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px
+}
+th, tr, td{
+    border: 1px solid black;
+    text-align: left;
+}

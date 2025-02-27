@@ -1,0 +1,24 @@
+* { margin: 0; padding: 0;}
+body {
+    width: 95%;
+    background-color: thistle;
+    margin: 15px auto;
+    border: 1px solid #7a3f8c; }
+    h2 {padding: 1em;}
+
+    header { border-bottom: 2px solid #7a3f8c;}
+    main {
+        height: 350px; 
+        width: 66.33%;
+        float: left;
+        border-right: 3px solid #7a3f8c;
+    }
+    aside {
+        width: 33.33%;
+        float: right;
+        }
+
+    footer {
+        clear:both;
+        border-top: 2px solid #7a3f8c;
+    }
